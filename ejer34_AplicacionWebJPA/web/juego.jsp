@@ -202,14 +202,6 @@
                                         out.print("</tr>");
                                         countplay++;
                                     }
-
-                                    //  for (int i = 0; i < play.size(); i++) {
-                                    //      out.print("<tr>");
-                                    //      out.print("<td>" + play.get(i).getPlayer() + "</td>");
-                                    //      out.print("<td>" + play.get(i).getCount() + "</td>");
-                                    //      out.print("<td>" + (i + 1) + "</td>");
-                                    //      out.print("</tr>");
-                                    //  }
                                 %>    
                             </table></center>
                     </div>
@@ -238,14 +230,6 @@
                                         out.print("</tr>");
                                         count++;
                                     }
-
-                                    // for (int i = 0; i < rankingJuego.size(); i++) {
-                                    //     out.print("<tr>");
-                                    //     out.print("<td>" + rankingJuego.get(i).getPlayer() + "</td>");
-                                    //     out.print("<td>" + rankingJuego.get(i).getCount() + "</td>");
-                                    //     out.print("<td>" + (i + 1) + "</td>");
-                                    //     out.print("</tr>");
-                                    // }
                                 %>    
                             </table></center>
                     </div>
