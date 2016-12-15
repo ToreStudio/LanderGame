@@ -3,7 +3,7 @@
     <Resource
     auth="Container"
     description="PostgresqlDB Connection"
-    name="jdbc/vAuthDS"
+    name="jdbc/webdb"
     type="javax.sql.DataSource"
     username="webuser"
     password="webuser"
