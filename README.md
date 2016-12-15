@@ -3,8 +3,15 @@
 #Las clases utilizadas son:
 #•	Toreusuarios: tabla postgresql generada mediante Entity Classes from Database. Contiene: id , el nombre  y la contraseña encriptada  del usuario.
 #•	ToreResultados: tabla postgresql generada mediante Entity Classes from Database. Contiene: id de resultado, la puntuación, fecha de inicio de partida, fecha de final de partida e id del usuario.
-#•	DBListener: Web Application Listener que inicia la conexión con la base de datos.
-#•	XMLServlet: maneja la información del result.jsp y la envía a la clase Xmlconverter, que contiene el método objectToXml y creando así el formato xml.
-#•	Alumnos: clase generada mediante el jaxB.
+#•	DBListener: Web Application Listener que inicia la conexión con la base de datos cuando se realiza una consulta y se cierra la conexión al acabar la misma.
+#•	ServletCookies: servlet que comprueba las cookie y si son correctas lleva al juego, de lo contrario lleva a dbservlet.
+#•	DbServlet: servlet que gestiona los registros e inicios de sesión de los usuarios.
+#•	servletResultado: servlet que gestiona  resultados de las partidas  de los usuarios.
+#•	UsuariosService: clase que realiza comprobaciones de usuarios con la base de datos y almacena los nuevos usuarios en la base de datos.
+#•	ResultadosService: clase que almacena las puntuaciones y fechas de inicio y final de la partida en la base de datos.
 
-#El funcionamiento del proyecto se basa en mostrar una lista de alumnos en el index.jsp y al seleccionar el alumno deseado, tratar la información en el doPost del NServlet y así ejecutar un jquery en el cual mostramos la información del alumno en el result.jsp. Por último , se puede acceder al XMLServlet mediante el botón y así crear el formato xml mediante jaxB.
+#Las páginas utilizadas son:
+#•	menu: menu del juego para registrar nuevos usuarios e inicios de sesión de usuarios ya registrados.
+#•	juego: página html con el juego.
+
+#El funcionamiento del proyecto se basa en 
