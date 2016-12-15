@@ -15,3 +15,13 @@
 #•	menu: menu del juego para registrar nuevos usuarios e inicios de sesión de usuarios ya registrados.
 #•	juego: página html con el juego.
 
+#Requisitos cumplidos:
+#• Sistema de registros.
+#• Registros de partidas jugadas.
+#• Listado de partidas jugadas.
+#• Listado de jugadores online.
+#• Listado de puntuaciones.
+#• Proyecto en github.
+#• war subido al servidor.
+#• Contraseñas encriptadas.
+#• html, css, javascript y jquery propios.
